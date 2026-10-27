@@ -3,7 +3,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Raushan Raj | Portfolio</title>
+<title>Raushan Raj | MCA Student, Developer & Tech Enthusiast</title>
+<meta name="description" content="Explore Raushan Raj's portfolio: MCA student at Galgotias University, software development, Python, machine learning, Android development, IoT projects and learning journey.">
+<meta name="author" content="Raushan Raj">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://codewithraushanraj.github.io/My-portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Raushan Raj | Developer Portfolio">
+<meta property="og:description" content="MCA student building practical projects in software development, Python, machine learning, Android and IoT.">
+<meta property="og:url" content="https://codewithraushanraj.github.io/My-portfolio/">
+<meta property="og:image" content="https://codewithraushanraj.github.io/My-portfolio/raushan-og.jpg">
+<meta property="og:image:alt" content="Raushan Raj — developer portfolio">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Raushan Raj | Developer Portfolio">
+<meta name="twitter:description" content="Software development, Python, machine learning, Android and IoT projects.">
+<meta name="twitter:image" content="https://codewithraushanraj.github.io/My-portfolio/raushan-og.jpg">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Raushan Raj","url":"https://codewithraushanraj.github.io/My-portfolio/","sameAs":["https://www.linkedin.com/in/mrrushanraj/","https://github.com/codewithraushanraj"],"jobTitle":"MCA Student and Aspiring Software Developer","alumniOf":{"@type":"CollegeOrUniversity","name":"Galgotias University"},"knowsAbout":["Python","Java","Machine Learning","Android Development","Web Development","Internet of Things"]}</script>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Sora:wght@600;800&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#070713;--fg:#e8eaff;--mut:#9aa0c8;--card:rgba(255,255,255,.05);--bd:rgba(255,255,255,.12);--a:#00e5ff;--b:#b26bff;--c:#ff3d9a;--nav:rgba(10,10,28,.65);--glow:.55;
@@ -107,6 +122,12 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
 .cg{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}.cg h3{font-size:1.02rem}.cg p{color:var(--mut);font-size:.9rem}
 @media(max-width:820px){nav{flex-wrap:wrap;gap:.3rem}.links{width:100%;overflow-x:auto;flex-wrap:nowrap;padding-bottom:.2rem;scrollbar-width:none}.links a{white-space:nowrap}html{scroll-padding-top:120px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+/* Direct credential links */
+.credential-card{display:block;text-decoration:none;color:inherit;cursor:pointer;transition:transform .25s,border-color .25s,box-shadow .25s}
+.credential-card:hover,.credential-card:focus-visible{border-color:var(--a);box-shadow:0 0 22px -8px var(--a);transform:translateY(-4px);outline:none}
+.credential-card .tag{display:inline-block;margin-top:.7rem}
+
 </style>
 </head>
 <body>
@@ -115,7 +136,7 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
 <nav>
   <a class="logo" href="#hero">RR.</a>
   <div class="links">
-    <a href="#hero">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#certs">Certificates</a><a href="#projects">Projects</a><a class="keep" href="#contact">Contact</a>
+    <a href="#hero">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#certs">Certificates</a><a href="#linkedin-updates">Highlights</a><a href="#projects">Projects</a><a href="#community">LinkedIn</a><a class="keep" href="#contact">Contact</a>
     <button id="theme" aria-label="Toggle dark and light theme"></button>
   </div>
 </nav>
@@ -126,11 +147,12 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
    <p class="hi">Hello, I'm</p>
    <h1>Raushan Raj</h1>
    <div class="type"><b id="typed"></b></div>
-   <p class="lead">MCA student at Galgotias University who builds with Python, Java and the web, and designs videos on the side. I like projects where code meets the real world, from health prediction models to Arduino automation.</p>
+   <p class="lead">MCA student at Galgotias University, learning by building practical projects across Python, Java, web development, machine learning, Android and IoT. I enjoy turning classroom concepts into working projects, sharing my learning journey, and improving one build at a time.</p>
    <div class="btns">
     <a class="btn" href="#projects">View projects</a>
     <a class="btn" href="#contact">Hire me</a>
     <a class="txtbtn" href="https://github.com/codewithraushanraj" target="_blank" rel="noopener">GitHub profile</a>
+    <a class="txtbtn" href="https://www.linkedin.com/in/mrrushanraj/" target="_blank" rel="noopener">Connect on LinkedIn</a>
    </div>
   </div>
   <div class="stage" id="stage">
@@ -146,10 +168,10 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
 
 <section id="about" class="rv">
  <h2>About <span>me</span></h2>
- <div class="card"><p>I'm an MCA student at Galgotias University (2025-2027) from Motihari, Bihar, with a BCA behind me and a strong interest in software development and emerging technology. I have completed internships in machine learning and Android development, and I learn fast, enjoy solving problems, and work well in a team. I'm looking for hands-on experience where I can grow my technical skills and contribute from day one.</p></div>
+ <div class="card"><p>I'm pursuing an MCA at Galgotias University (2025–2027), after completing my BCA. My interests include software development, Python, machine learning, Android development and IoT. Through academic projects and internship programs, I'm building practical experience, strengthening my problem-solving skills and learning how to turn ideas into useful applications. I value consistency, hands-on experimentation and sharing what I learn along the way.</p></div>
  <div class="stats">
   <div class="card"><b data-count="8">0</b>Programming languages</div>
-  <div class="card"><b data-count="9">0</b>Certifications</div>
+  <div class="card"><b data-count="15">0</b>Certificates & courses</div>
   <div class="card"><b data-count="6">0</b>GitHub repos</div>
   <div class="card"><b data-count="3">0</b>Internships</div>
  </div>
@@ -187,10 +209,11 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
 </section>
 
 <section id="certs" class="rv">
- <h2>Certifications and <span>courses</span></h2>
+ <h2>Certificates, training & <span>courses</span></h2>
+ <p style="color:var(--mut);margin:-.5rem 0 1rem">Select a credential card to open its direct credential page or the most specific related public update available.</p>
  <div class="cg">
  <div class="card tilt"><h3>Machine Learning Using Python</h3><p>Simplilearn SkillUp</p></div>
- <div class="card tilt"><h3>Machine Learning Foundation</h3><p>AWS Academy</p></div>
+ <div class="card tilt"><h3>AWS Academy Graduate – Machine Learning Foundations</h3><p>AWS Academy · 20-hour training covering the ML lifecycle, model evaluation and cloud-based AI with Amazon SageMaker</p></div>
  <div class="card tilt"><h3>Python Bootcamp</h3><p>Infosys Springboard</p></div>
  <div class="card tilt"><h3>C++ Programming</h3><p>GreyLearn</p></div>
  <div class="card tilt"><h3>Advanced Excel</h3><p>GreyLearn</p></div>
@@ -199,7 +222,22 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
  <div class="card tilt"><h3>Foundation Course in IoT Testing</h3><p>Reliance Foundation Skilling Academy, via Skill India Digital</p></div>
  <div class="card tilt"><h3>Low-Code / No-Code Solutions</h3><p>Building expertise in creating applications faster</p></div>
  <div class="card tilt"><h3>A.D.C.A</h3><p>Creative Computer Classes</p></div>
+ <a class="card tilt credential-card" href="https://www.coursera.org/account/accomplishments/certificate/HB7D4G34NY9O" target="_blank" rel="noopener noreferrer" aria-label="Open Conditional Formatting, Tables and Charts in Microsoft Excel credential"><h3>Conditional Formatting, Tables and Charts in Microsoft Excel</h3><p>Coursera / United Latino Students Association · Nov 2025</p><span class="tag">View credential ↗</span></a>
+ <a class="card tilt credential-card" href="https://www.coursera.org/account/accomplishments/certificate/W0X71WMO66ZW" target="_blank" rel="noopener noreferrer" aria-label="Open Python for Beginners: Data Structures credential"><h3>Python for Beginners: Data Structures</h3><p>Coursera / United Latino Students Association · Oct 2025</p><span class="tag">View credential ↗</span></a>
+ <a class="card tilt credential-card" href="https://www.coursera.org/account/accomplishments/certificate/JZP3ECSMVWIZ" target="_blank" rel="noopener noreferrer" aria-label="Open Getting Started with Microsoft Excel credential"><h3>Getting Started with Microsoft Excel</h3><p>Coursera · Oct 2025</p><span class="tag">View credential ↗</span></a>
+ <a class="card tilt credential-card" href="https://www.linkedin.com/posts/mrrushanraj_learningjourney-coding-technology-activity-7463378098730901506-lvpt" target="_blank" rel="noopener noreferrer" aria-label="Open Raushan Raj’s LinkedIn learning update"><h3>How to Use Lookup, Reference, Math and Text Functions in Excel</h3><p>Coursera / United Latino Students Association · Nov 2025</p><span class="tag">View related update ↗</span></a>
+ <div class="card tilt"><h3>Technical Writing</h3><p>Reliance Foundation and Skill India Digital Hub · 60-hour certification</p></div>
  </div>
+</section>
+
+<section id="linkedin-updates" class="rv">
+ <h2>Recent <span>highlights</span></h2>
+ <div class="cg">
+  <a class="card tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/search/results/content/?keywords=Raushan%20Raj%20AWS%20Academy%20Machine%20Learning%20Foundations" target="_blank" rel="noopener noreferrer"><h3>AWS Academy – Machine Learning Foundations</h3><p>Completed 20 hours of training covering the machine learning lifecycle, model building, evaluation and cloud-based AI.</p><span class="tag">AWS Academy</span><span class="tag">Machine Learning</span></a>
+  <a class="card tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/search/results/content/?keywords=Raushan%20Raj%20Technical%20Writing%20Reliance%20Foundation%20Skill%20India%20Digital%20Hub" target="_blank" rel="noopener noreferrer"><h3>Technical Writing</h3><p>Completed a 60-hour certification through Reliance Foundation and Skill India Digital Hub.</p><span class="tag">Communication</span><span class="tag">Documentation</span></a>
+  <a class="card tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/search/results/content/?keywords=Raushan%20Raj%20National%20Financial%20Literacy%20Quiz%202026" target="_blank" rel="noopener noreferrer"><h3>National Financial Literacy Quiz 2026</h3><p>Participated in the college round organized by NISM and SEBI, with support from the School of Computer Applications & Technology at Galgotias University.</p><span class="tag">Participation</span><span class="tag">Financial Literacy</span></a>
+ </div>
+ <p style="margin-top:1rem"><a class="txtbtn" href="https://www.linkedin.com/in/mrrushanraj/" target="_blank" rel="noopener">View LinkedIn profile</a></p>
 </section>
 
 <section id="projects" class="rv">
@@ -211,6 +249,16 @@ footer{text-align:center;color:var(--mut);padding:3rem 1rem;font-size:.9rem}
   <a class="card proj tilt" style="text-decoration:none;color:inherit" href="https://github.com/codewithraushanraj/Titanic-Data-Cleaning-Visualization" target="_blank" rel="noopener"><h3>Titanic Data Analysis</h3><p>Data cleaning, visualization and exploratory analysis on the Titanic dataset.</p><span class="tag">Python</span><span class="tag">EDA</span></a>
  </div>
  <p style="margin-top:1.2rem"><a class="txtbtn" href="https://www.linkedin.com/posts/mrrushanraj_iot-homeautomation-engineeringstudent-activity-7468326578993721344-HNL2" target="_blank" rel="noopener">IoT home automation post</a> <a class="txtbtn" href="https://www.linkedin.com/posts/mrrushanraj_learningjourney-coding-technology-activity-7463378098730901506-lvpt" target="_blank" rel="noopener">Learning journey post</a> <a class="txtbtn" href="https://github.com/codewithraushanraj?tab=repositories" target="_blank" rel="noopener">See all repositories</a></p>
+</section>
+
+<section id="community" class="rv">
+ <h2>Learning in <span>public</span></h2>
+ <p class="lead" style="max-width:760px;margin:0 auto 1.4rem;text-align:center">I share project updates, hands-on experiments and lessons from my learning journey on LinkedIn.</p>
+ <div class="grid">
+  <a class="card proj tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/posts/mrrushanraj_iot-homeautomation-engineeringstudent-activity-7468326578993721344-HNL2" target="_blank" rel="noopener"><h3>IoT Home Automation</h3><p>Explore a practical project built around sensors, Arduino and automated responses.</p><span class="tag">Project update</span><span class="tag">IoT</span></a>
+  <a class="card proj tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/posts/mrrushanraj_learningjourney-coding-technology-activity-7463378098730901506-lvpt" target="_blank" rel="noopener"><h3>My Learning Journey</h3><p>A snapshot of my progress as a student learning and building with technology.</p><span class="tag">Learning</span><span class="tag">Community</span></a>
+  <a class="card proj tilt" style="text-decoration:none;color:inherit" href="https://www.linkedin.com/in/mrrushanraj/" target="_blank" rel="noopener"><h3>Connect on LinkedIn</h3><p>Follow my updates, project posts and professional journey.</p><span class="tag">LinkedIn</span></a>
+ </div>
 </section>
 
 <section id="contact" class="rv">
